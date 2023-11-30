@@ -1,8 +1,20 @@
+import styles from './Navbar.module.css'
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+
 function Navbar() {
     return (
-        <>
-        <h1>Navbar</h1>
-        </>
+        <div className={styles.navbar}>
+            <ul>
+                <li>Apresentação</li>
+                <li>Habilidades</li>
+                <li>Projetos</li>
+            </ul>
+            <ul>
+                <li><FaInstagram size={30} /></li>
+                <li><FaLinkedin size={30} /></li>
+                <li><FaGithub size={30} /></li>
+            </ul>
+        </div>
     )
 }
 

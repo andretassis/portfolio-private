@@ -1,8 +1,8 @@
 function Projects() {
     return (
-        <>
-        <h1>Projects</h1>
-        </>
+        <div id="projects">
+            <h1>Projects</h1>
+        </div>
     )
 }
 

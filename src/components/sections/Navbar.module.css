@@ -10,3 +10,8 @@
     gap: 25px;
     padding: 20px 75px;
 }
+
+.navbar a {
+    color: aliceblue !important;
+    text-decoration: none;
+}

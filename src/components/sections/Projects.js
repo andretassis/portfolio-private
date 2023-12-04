@@ -4,10 +4,12 @@ import lpccxp from '../assets/projeto-lp-ccxp.svg'
 import flexibank from '../assets/projeto-flexibank.svg'
 import apicep from '../assets/projeto-api-cep.svg'
 import crud from '../assets/projeto-crud.svg'
+import ButtonB from "../elements/ButtonB";
+import styles from './Projects.module.css'
 
 function Projects() {
     return (
-        <div id="projects">
+        <div id="projects" className={styles.projects}>
             <h1>Projetos</h1>
             <Card
                 img={tabuada}
@@ -49,7 +51,13 @@ function Projects() {
                 repo="https://github.com/andretassis/crud-produto"
                 site="https://crud-produto.vercel.app/"
             />
-
+            <div>
+                <a href="https://github.com/andretassis?tab=repositories">
+                    <ButtonB
+                        text="Ver repositório completo"
+                    />
+                </a>
+            </div>
         </div>
     )
 }

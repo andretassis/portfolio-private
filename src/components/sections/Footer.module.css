@@ -1,0 +1,17 @@
+.footer {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+}
+
+.footer li {
+    color: aliceblue !important;
+}

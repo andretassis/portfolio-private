@@ -1,0 +1,9 @@
+.presentation {
+    padding-left: 200px;
+    text-align: left;
+    max-width: 38%;
+}
+
+.presentation h4 {
+    font-size: 22px;
+}
